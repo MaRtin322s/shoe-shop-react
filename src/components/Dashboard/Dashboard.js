@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Dashboard = () => {
     return (
         <section id="dashboard">
@@ -54,9 +56,9 @@ const Dashboard = () => {
                         <strong>Value:</strong>
                         <span className="value">30000</span>$
                     </p>
-                    <a className="details-btn" href="">
+                    <Link className="details-btn" to="/details/:id">
                         Details
-                    </a>
+                    </Link>
                 </li>
             </ul>
             {/* Display an h2 if there are no posts */}
