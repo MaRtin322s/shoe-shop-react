@@ -20,7 +20,7 @@ const Dashboard = () => {
                         <strong>Value:</strong>
                         <span className="value">2000</span>$
                     </p>
-                    <a className="details-btn" href="">
+                    <a className="details-btn" href="/">
                         Details
                     </a>
                 </li>
@@ -38,7 +38,7 @@ const Dashboard = () => {
                         <strong>Value:</strong>
                         <span className="value">92100</span>$
                     </p>
-                    <a className="details-btn" href="">
+                    <a className="details-btn" href="/">
                         Details
                     </a>
                 </li>
@@ -56,7 +56,7 @@ const Dashboard = () => {
                         <strong>Value:</strong>
                         <span className="value">30000</span>$
                     </p>
-                    <Link className="details-btn" to="/details/:id">
+                    <Link className="details-btn" to="/">
                         Details
                     </Link>
                 </li>

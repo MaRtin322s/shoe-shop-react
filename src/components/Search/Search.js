@@ -29,7 +29,7 @@ const Search = () => {
                             <strong>Value:</strong>
                             <span className="value">2000</span>$
                         </p>
-                        <a className="details-btn" href="">
+                        <a className="details-btn" href="/">
                             Details
                         </a>
                     </li>

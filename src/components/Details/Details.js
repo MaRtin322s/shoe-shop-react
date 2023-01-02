@@ -25,10 +25,10 @@ const Details = () => {
                 </div>
                 {/*Edit and Delete are only for creator*/}
                 <div id="action-buttons">
-                    <a href="" id="edit-btn">
+                    <a href="/" id="edit-btn">
                         Edit
                     </a>
-                    <a href="" id="delete-btn">
+                    <a href="/" id="delete-btn">
                         Delete
                     </a>
                 </div>

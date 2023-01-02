@@ -1,6 +1,6 @@
 const baseUrl = "http://localhost:3030/users";
 
-export const registerUser = () => {
+export const registerUser = (userData) => {
     return fetch(`${baseUrl}/register`, {
         method: 'POST',
         headers: {
